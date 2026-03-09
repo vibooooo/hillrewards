@@ -1,10 +1,6 @@
 {
   "rewrites": [
-    { "source": "/leaderboard", "destination": "/index.html" },
-    { "source": "/leaderboard/", "destination": "/index.html" },
-    { "source": "/milestones", "destination": "/index.html" },
-    { "source": "/milestones/", "destination": "/index.html" },
     { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
