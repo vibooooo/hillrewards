@@ -456,11 +456,11 @@ onBeforeUnmount(() => {
             <img class="brand-mark__image" src="/images/logo.png" alt="Hill Rewards" />
           </a>
 
-          <a class="nav-tab" href="/leaderboard" aria-label="Leaderboards">
+          <a class="nav-tab" href="/leaderboard" aria-label="Leaderboards" @click.prevent="navigateTo('/leaderboard')">
             <span>Leaderboard</span>
           </a>
 
-          <a class="nav-tab nav-tab--milestones" href="/milestones" aria-label="Milestones">
+          <a class="nav-tab nav-tab--milestones" href="/milestones" aria-label="Milestones" @click.prevent="navigateTo('/milestones')">
             <span>Milestones</span>
           </a>
 
@@ -488,10 +488,10 @@ onBeforeUnmount(() => {
         class="mobile-menu"
         aria-label="Mobile navigation"
       >
-        <a class="mobile-nav-tab mobile-nav-tab--leaderboard" href="/leaderboard">
+        <a class="mobile-nav-tab mobile-nav-tab--leaderboard" href="/leaderboard" @click.prevent="navigateTo('/leaderboard')">
           <span>Leaderboard</span>
         </a>
-        <a class="mobile-nav-tab mobile-nav-tab--milestones" href="/milestones">
+        <a class="mobile-nav-tab mobile-nav-tab--milestones" href="/milestones" @click.prevent="navigateTo('/milestones')">
           <span>Milestones</span>
         </a>
       </section>
@@ -605,8 +605,8 @@ onBeforeUnmount(() => {
           <nav class="site-footer__nav" aria-label="Footer navigation">
             <h3 class="site-footer__col-title">Navigate</h3>
             <a class="site-footer__nav-link" href="/">Home</a>
-            <a class="site-footer__nav-link" href="/leaderboard">Leaderboard</a>
-            <a class="site-footer__nav-link" href="/milestones">Milestones</a>
+            <a class="site-footer__nav-link" href="/leaderboard" @click.prevent="navigateTo('/leaderboard')">Leaderboard</a>
+            <a class="site-footer__nav-link" href="/milestones" @click.prevent="navigateTo('/milestones')">Milestones</a>
           </nav>
           <div class="site-footer__connect" aria-label="Social links">
             <h3 class="site-footer__col-title">Connect</h3>
@@ -652,11 +652,11 @@ onBeforeUnmount(() => {
             <img class="brand-mark__image" src="/images/logo.png" alt="Hill Rewards" />
           </a>
 
-          <a class="nav-tab" href="/leaderboard" aria-label="Leaderboards">
+          <a class="nav-tab" href="/leaderboard" aria-label="Leaderboards" @click.prevent="navigateTo('/leaderboard')">
             <span>Leaderboard</span>
           </a>
 
-          <a class="nav-tab nav-tab--milestones" href="/milestones" aria-label="Milestones">
+          <a class="nav-tab nav-tab--milestones" href="/milestones" aria-label="Milestones" @click.prevent="navigateTo('/milestones')">
             <span>Milestones</span>
           </a>
 
@@ -684,10 +684,10 @@ onBeforeUnmount(() => {
         class="mobile-menu"
         aria-label="Mobile navigation"
       >
-        <a class="mobile-nav-tab mobile-nav-tab--leaderboard" href="/leaderboard">
+        <a class="mobile-nav-tab mobile-nav-tab--leaderboard" href="/leaderboard" @click.prevent="navigateTo('/leaderboard')">
           <span>Leaderboard</span>
         </a>
-        <a class="mobile-nav-tab mobile-nav-tab--milestones" href="/milestones">
+        <a class="mobile-nav-tab mobile-nav-tab--milestones" href="/milestones" @click.prevent="navigateTo('/milestones')">
           <span>Milestones</span>
         </a>
       </section>
@@ -766,8 +766,8 @@ onBeforeUnmount(() => {
           <nav class="site-footer__nav" aria-label="Footer navigation">
             <h3 class="site-footer__col-title">Navigate</h3>
             <a class="site-footer__nav-link" href="/">Home</a>
-            <a class="site-footer__nav-link" href="/leaderboard">Leaderboard</a>
-            <a class="site-footer__nav-link" href="/milestones">Milestones</a>
+            <a class="site-footer__nav-link" href="/leaderboard" @click.prevent="navigateTo('/leaderboard')">Leaderboard</a>
+            <a class="site-footer__nav-link" href="/milestones" @click.prevent="navigateTo('/milestones')">Milestones</a>
           </nav>
           <div class="site-footer__connect" aria-label="Social links">
             <h3 class="site-footer__col-title">Connect</h3>
@@ -813,11 +813,11 @@ onBeforeUnmount(() => {
             <img class="brand-mark__image" src="/images/logo.png" alt="Hill Rewards" />
           </a>
 
-          <a class="nav-tab" href="/leaderboard" aria-label="Leaderboards">
+          <a class="nav-tab" href="/leaderboard" aria-label="Leaderboards" @click.prevent="navigateTo('/leaderboard')">
             <span>Leaderboard</span>
           </a>
 
-          <a class="nav-tab nav-tab--milestones" href="/milestones" aria-label="Milestones">
+          <a class="nav-tab nav-tab--milestones" href="/milestones" aria-label="Milestones" @click.prevent="navigateTo('/milestones')">
             <span>Milestones</span>
           </a>
 
@@ -845,10 +845,10 @@ onBeforeUnmount(() => {
         class="mobile-menu"
         aria-label="Mobile navigation"
       >
-        <a class="mobile-nav-tab mobile-nav-tab--leaderboard" href="/leaderboard">
+        <a class="mobile-nav-tab mobile-nav-tab--leaderboard" href="/leaderboard" @click.prevent="navigateTo('/leaderboard')">
           <span>Leaderboard</span>
         </a>
-        <a class="mobile-nav-tab mobile-nav-tab--milestones" href="/milestones">
+        <a class="mobile-nav-tab mobile-nav-tab--milestones" href="/milestones" @click.prevent="navigateTo('/milestones')">
           <span>Milestones</span>
         </a>
       </section>
@@ -965,8 +965,8 @@ onBeforeUnmount(() => {
           <nav class="site-footer__nav" aria-label="Footer navigation">
             <h3 class="site-footer__col-title">Navigate</h3>
             <a class="site-footer__nav-link" href="/">Home</a>
-            <a class="site-footer__nav-link" href="/leaderboard">Leaderboard</a>
-            <a class="site-footer__nav-link" href="/milestones">Milestones</a>
+            <a class="site-footer__nav-link" href="/leaderboard" @click.prevent="navigateTo('/leaderboard')">Leaderboard</a>
+            <a class="site-footer__nav-link" href="/milestones" @click.prevent="navigateTo('/milestones')">Milestones</a>
           </nav>
           <div class="site-footer__connect" aria-label="Social links">
             <h3 class="site-footer__col-title">Connect</h3>
