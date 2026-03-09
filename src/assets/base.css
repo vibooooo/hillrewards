@@ -1,0 +1,25 @@
+:root {
+  color-scheme: dark;
+  background-color: #16131b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body,
+#app {
+  min-height: 100vh;
+}
+
+body {
+  background: #16131b;
+}
+
+html {
+  overflow-y: scroll;
+}
